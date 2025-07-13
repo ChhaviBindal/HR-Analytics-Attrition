@@ -1,0 +1,2 @@
+# IBM HR Analytics – Employee Attrition & Performance
+This repository contains a data analytics and machine learning project focused on understanding and predicting employee attrition. The project uses the IBM HR dataset to identify key factors that influence employees leaving the company. By analyzing these patterns, HR teams can build better retention strategies and create a more supportive workplace.
