@@ -1,0 +1,39 @@
+The goal of this project is to uncover patterns and drivers behind employee attrition using data analytics and machine learning techniques. 
+This enables HR teams to proactively identify at-risk employees and make data-driven retention strategies.
+
+Key Features
+1. Data Preprocessing:
+-Verified data completeness: No missing or duplicated records.
+-Dropped non-informative columns like EmployeeCount, EmployeeNumber, and StandardHours.
+-Converted categorical variables using one-hot encoding for modeling.
+-Created binary label Attrition_Flag for classification (Yes = 1, No = 0).
+2. Exploratory Data Analysis (EDA):
+-Calculated Attrition Rate (~16.12% of employees left).
+-Analyzed Average Tenure (~7 years) and demographic distribution (age, gender, department).
+-Identified high attrition among:
+-Younger employees (<35)
+-Employees working overtime
+-Employees with low job satisfaction or poor work-life balance
+3. Feature Engineering:
+-Created key variables impacting attrition:
+-OverTime, MonthlyIncome
+-JobSatisfaction, WorkLifeBalance
+-Used visualization tools (bar charts, histograms, KDE plots) to interpret distributions.
+4. Multivariate Analysis:
+-Generated correlation heatmap to study relationships between features.
+-Used pairplots to visually inspect clusters and patterns in the data.
+-Found combinations like low income + high overtime = higher attrition risk.
+5. Predictive Modeling:
+-Applied Logistic Regression on encoded features to classify attrition.
+-Achieved ~87% accuracy, with high precision for predicting retained employees.
+-Evaluated using metrics: Accuracy, Confusion Matrix, Classification Report.
+6. Business Insights & Recommendations:
+-Reduce employee OverTime to avoid burnout.
+-Focus on improving Work-Life Balance through HR policies.
+-Track and support low-income, low-satisfaction employees.
+-Use predictive models to flag high-risk employees and intervene early.
+
+Result:
+The model successfully identifies attrition-prone employees using behavioral and performance data. 
+This project lays the foundation for data-driven HR retention strategies in real-world organizations.
+
